@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pricing-wrapper{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    text-align: center;
+    background: #93B6B7 url(../img/Radio.png) no-repeat left bottom;
+
+    font-family: 'Arvo', serif;
+}
+.pricing-wrapper .cheack-price{
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing-wrapper .cheack-price h2{
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 48px;
+    color: #fff;
+}
+.pricing-wrapper .cheack-price span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+}
+
+
+.pricing-wrapper .price-content{
+    margin-top: 2%;
+    display: inline-block;
+    background: #fff;
+    width: 960px;
+    border-radius: 6px;
+}
+.pricing-wrapper .price-content .cards{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin: 2% auto 5% auto;
+    color: #212121;
+}
+.pricing-wrapper .price-content .card:nth-child(even){
+    border-left: 1px solid #e4e4e4;
+    border-right:  1px solid #e4e4e4;
+    padding: 0 80px;
+}
+.pricing-wrapper .price-content .card h3{
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.1px;
+    color: #757575;
+}
+.pricing-wrapper .price-content .card:nth-child(even) h3::before{
+    content: "Popular";
+    font-family:  'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 17px;
+    letter-spacing: 1.92px;
+    color: #eee;
+    border-radius: 4px;
+    background: #8D76BE;
+    padding: 5px 10px;
+    margin-right: 15px;
+    width: 72px;
+    height: 17px;
+    vertical-align: 2px;
+}
+.pricing-wrapper .price-content .price{
+    font-size: 72px;
+    line-height: 89px;
+    margin-bottom: 10px;
+}
+
+
+.pricing-wrapper .price-content .price::before{
+    content: "$";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 48px;
+    color: #818181;
+    vertical-align: 32px;
+}
+.pricing-wrapper .price-content .unlimited{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+.pricing-wrapper .price-content .gb{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.pricing-wrapper .price-content  button{
+    margin-top: 15px;
+    width: 160px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #525252;
+    line-height: 46px;
+    background: none;
+    border-radius: 100px;
+    border:1px solid #9FA3A7;
+    cursor: pointer;
+}
+.pricing-wrapper .price-content .card:hover .price{
+    color: #F05638;
+}
+.pricing-wrapper .price-content .card:hover button{
+    background: #FFC80A;
+    color: #fff;
+}
